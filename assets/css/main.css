@@ -33,18 +33,40 @@ body {
 }
 
 .Jax {
-	height: 40rem;
+	
+	height: 20rem;
 	width: 20rem;
 	background-size: cover;
 	text-decoration:none;
 	border-bottom: none;
 	font-weight: bold;
+	
 }
 
 .Jax:hover  {
+	opacity:1;
 	display: inline-block;
+	box-shadow: 2px 4px 4px rgba(0, 0, 0, .5);
+	
 	background-image: url(../../images/Jax.jpg);
+	-webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  animation: jaxin 2s;
 }
+
+@keyframes jaxin {
+
+0% {
+	opacity: 0;
+}
+
+100% {
+	opacity: 1;
+}
+}
+
 ol, ul {
 	list-style: none;
 }
