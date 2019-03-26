@@ -33,9 +33,9 @@ body {
 }
 
 .Jax {
-	height: 80vh;
-    	width: 50vh;
-    	background-position: center;
+	height: 40rem;
+	width: 20rem;
+	background-size: cover;
 	text-decoration:none;
 	border-bottom: none;
 	font-weight: bold;
